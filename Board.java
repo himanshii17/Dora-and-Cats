@@ -58,7 +58,7 @@ public class Board extends JPanel {
 		int ydistance=Math.abs(player.y-enemy.y);
 		int maxh=Math.max(player.h, enemy.h);
 		int maxw=Math.max(player.w, enemy.w);
-		return xdistance <= maxw-139 && ydistance <=maxh-139;
+		return xdistance <= maxw-134 && ydistance <=maxh-134;
 	}
 	private void bindEvents() {
 		addKeyListener(new KeyListener() {
